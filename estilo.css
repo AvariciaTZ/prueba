@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    /* top right bottom left */
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    /*     background-color: rgb(41, 87, 186); */
+    background-color: #ccc;
+    font-family: 'Poppins', sans-serif; 
+    
+}
+
+
+
+
+.title-container{
+    background-color: #3D4043;
+
+    display: flex;
+/* padding:top-rigth-bottom-left; */
+    flex-direction: row;
+    height: 55px;
+    align-items: center;
+    padding-left: 90px;
+    width: 100%;
+
+}
+
+.title-item{
+    color: #2957BA;
+    font-size: 18px;
+    width: 50%;
+}
+
+a:visited{
+    color:  #2856b8c0;
+}
+
+.img-item{
+    background-color: transparent;    
+    font-size: 20px;    
+    width: 50%;    
+    padding-right: 90px;    
+    
+
+}
+img[alt="tresBarras"]{
+    position: relative;
+    float: right;
+    
+}
+
+.img-item img{
+    width: 30px;         
+    /*     padding: 0px 0px 0px 600px; */
+    transition: background 1s,height .5s, width .5s;
+}
+
+
+@media screen and (max-width:310px) {
+
+    .title-container{   
+        background-color: #3D4043;
+    /* padding:top-rigth-bottom-left; */
+        flex-direction: row;
+        height: 55px;
+        align-items: center;
+        padding-left: 90px;
+        width: 100%;
+        display: inline-block;
+
+    }
+    .img-item{                
+    padding-left: 90px;
+    
+    } 
+        
+.windows{    
+    padding-left: 15px !important;
+}
+
+
+
+
+}
+
+
+
+.windows{    
+    padding-left: 7.55em;
+}
+
+
+@media screen and (min-width:350px) {
+
+        
+.windows{    
+    padding-left: 30px ;
+}
+
+
+
+
+}
+
+.subtitle{    
+
+    color: #2957BA;
+    font-size: 40px;
+    padding-left: 21px;
+
+}
+
+.mover-img-container{
+    width: 70em;
+    
+}
+
+
+
+/* animes en categoria */
+.img-title-container{
+    width: 185px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+.img-anime-title{
+    background-color:#2957BA;
+    color: #fff;    
+    width: 100%;
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    text-align: center;
+}
+
+.img-anime-container img{
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    width: 100%;
+    height: 100%;
+}
+.img-anime-footer{
+    width: 100%;
+    background-color: white;
+}
+
+.float-left{
+    color: #000;
+    background: transparent;
+
+}
+
+div span i img{
+    width: 20px;
+}
+
+.float-right{
+    float: right;
+    color: #2957BA;
+    background: transparent;
+
+}
+
+@media screen and (min-width:515px) {
+    .img-title-container{   
+        width: 195px;
+    }
+
+    .windows{    
+        padding-left: 60px ;
+    }
+
+}
+
+@media screen and (min-width:1090px) {
+    .img-title-container{   
+        width: 250px;
+    }
+
+        
+.windows{    
+    padding-left: 7.55em;
+}
+
+
+
+}
+
+
+
+.nav-li{
+    display: inline-block;
+    padding: 16px;
+    transition: background .5s;
+}
+
+.nav-li-a{
+    text-decoration: none;
+    
+}
+.nav-li-a{
+    text-decoration: none;
+}
+
+.nav-li:hover{
+background: #2957BA;
+max-height: 50px;
+border-radius: .25rem;
+align-items: center; 
+
+}
+
+.nav-li-a:visited:hover{    
+    color: rgb(255, 255, 255); 
+}
+
+    
+
+
+/* @media only screen and (min-width: 900px){
+
+    .nav.ul{
+        display: block;
+    }
+
+    
+} */
